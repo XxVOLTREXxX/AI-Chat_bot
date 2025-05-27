@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "What's up?"],
+      "responses": ["Hello!", "Hi there!", "Greetings!", "Hey!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Much obliged"],
+      "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Your name please"],
+      "responses": ["I'm your friendly chatbot!", "I am a virtual assistant.", "You can call me Chatbot!"]
+    },
+
+    {
+     "tag": "weather",
+     "patterns": ["What's the weather?", "Is it raining?", "Tell me the forecast"],
+     "responses": ["It's sunny today!", "Expect showers.", "Mostly cloudy with a chance of rain."]
+},
+
+{
+  "tag": "book_meeting",
+  "patterns": [
+    "Book a meeting",
+    "Schedule a meeting",
+    "Set up an appointment",
+    "I need to book a call",
+    "Meeting with someone"
+  ],
+  "responses": [
+    "Sure, who is the meeting with and when?",
+    "Got it. Let me know the name and time."
+  ]
+}
+
+  ]
+}
